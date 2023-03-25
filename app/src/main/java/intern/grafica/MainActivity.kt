@@ -15,29 +15,13 @@ import intern.grafica.ui.theme.GraficaTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContent {
-            GraficaTheme {
-                // A surface container using the 'background' color from the theme
-                Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colors.background
-                ) {
-                    Greeting("Android")
-                }
-            }
-        }
+        setContent(R.layout.grafica)
+
+
+
     }
-}
 
-@Composable
-fun Greeting(name: String) {
-    Text(text = "Hello $name!")
-}
+    private fun setContent(parent: Int) {
 
-@Preview(showBackground = true)
-@Composable
-fun DefaultPreview() {
-    GraficaTheme {
-        Greeting("Android")
     }
 }
