@@ -17,7 +17,7 @@
         android:layout_height="24dp"
         android:layout_gravity="center|center_horizontal"
         android:layout_marginBottom="20dp"
-        android:src="@drawable/Grafica" />
+        android:src="@drawable/nama_logo"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -41,7 +41,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#000000"
-            android:hint="@string/notlp" />
+            android:hint="@string/notlp"
+            android:minHeight="48dp" />
 
         <EditText
             android:id="@+id/editTextPassword"
@@ -49,7 +50,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:backgroundTint="#000000"
-            android:hint="@string/pw" />
+            android:hint="@string/pw"
+            android:minHeight="48dp" />
 
         <Button
             android:id="@+id/buttonLogin"

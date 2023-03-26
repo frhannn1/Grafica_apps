@@ -15,13 +15,10 @@ import intern.grafica.ui.theme.GraficaTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContent(R.layout.grafica)
+        setContentView(R.layout.login)
 
 
 
     }
 
-    private fun setContent(parent: Int) {
-
-    }
 }
