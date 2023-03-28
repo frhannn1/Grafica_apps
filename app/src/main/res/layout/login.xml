@@ -5,12 +5,13 @@
     android:orientation="vertical"
     android:gravity="center"
     >
-<ImageView android:layout_gravity="center|center_horizontal"
-    android:layout_marginBottom="10dp"
-    android:src="@drawable/Logo"
-    android:layout_height="100dp"
-    android:layout_width="100dp"
-    />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center|center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/logo" />
 
     <ImageView
         android:layout_width="148dp"
@@ -22,10 +23,10 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="120dp"
         android:background="#FFFFFF"
         android:orientation="vertical"
-        android:padding="16dp"
-        android:layout_marginBottom="120dp">
+        android:padding="16dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -58,7 +59,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:background="#000000"
+            android:background="@drawable/baground_rounded"
             android:text="@string/login"
             android:textColor="#FFFFFF" />
 
