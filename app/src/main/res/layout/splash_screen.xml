@@ -12,7 +12,7 @@
         android:layout_height="120dp"
         android:layout_gravity="center|center_horizontal"
         android:contentDescription="logo_app"
-        android:src="@drawable/logo"
+        android:src="@drawable/icon"
         tools:ignore="HardcodedText,ImageContrastCheck" />
 
     <TextView
