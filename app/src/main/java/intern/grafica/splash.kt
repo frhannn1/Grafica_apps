@@ -3,6 +3,7 @@ import android.content.Intent
 import androidx.activity.ComponentActivity
 import android.os.Bundle;
 import android.os.Handler;
+import android.widget.Button;
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material.MaterialTheme
@@ -23,7 +24,8 @@ public class splash: ComponentActivity() {
             startActivity(intent)
             finish()
         },3000)
+        }
     }
 
 
-}
+

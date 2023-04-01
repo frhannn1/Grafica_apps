@@ -24,10 +24,10 @@
         android:layout_marginBottom="20dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
-        android:text="@string/nama"
+        android:hint="@string/nama"
         android:padding="15dp"
         android:inputType="text"
-        android:textColor="@color/abu2"
+        android:textColor="@color/black"
         />
 
     <EditText
@@ -39,8 +39,8 @@
         android:background="@drawable/input"
         android:inputType="text"
         android:padding="15dp"
-        android:text="@string/notlp"
-        android:textColor="@color/abu2"/>
+        android:hint="@string/notlp"
+        android:textColor="@color/black"/>
     <EditText
         android:id="@+id/email"
         android:layout_width="match_parent"
@@ -51,8 +51,8 @@
         android:background="@drawable/input"
         android:inputType="text"
         android:padding="15dp"
-        android:text="@string/email"
-        android:textColor="@color/abu2"/>
+        android:hint="@string/email"
+        android:textColor="@color/black"/>
     <EditText
         android:id="@+id/pw"
         android:layout_width="match_parent"
@@ -61,10 +61,10 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:background="@drawable/input"
-        android:inputType="text"
+        android:inputType="textPassword"
         android:padding="15dp"
-        android:text="@string/pw"
-        android:textColor="@color/abu2"
+        android:hint="@string/pw"
+        android:textColor="@color/black"
         />
     <EditText
         android:id="@+id/ulangpw"
@@ -74,10 +74,10 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:background="@drawable/input"
-        android:inputType="text"
+        android:inputType="textPassword"
         android:padding="15dp"
-        android:text="@string/ulangpw"
-        android:textColor="@color/abu2"
+        android:hint="@string/ulangpw"
+        android:textColor="@color/black"
         />
     <Button
         android:layout_width="match_parent"

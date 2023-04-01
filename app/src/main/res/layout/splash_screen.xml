@@ -23,6 +23,6 @@
         android:layout_marginTop="20dp"
         android:textSize="22pt"
         android:textStyle="bold"
-        android:textColor="@color/pink" />
+        android:textColor="@color/namalogo" />
 
 </LinearLayout>

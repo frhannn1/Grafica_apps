@@ -28,6 +28,14 @@
                 <action android:name="android.intent.action.MAIN"/>
             </intent-filter>
         </activity>
+        <activity
+            android:name=".SignUp"
+            android:exported="true"
+            android:theme="@style/Theme.Grafica">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
