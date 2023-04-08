@@ -1,13 +1,16 @@
 <resources>
     <string name="app_name">Grafica</string>
-    <string name="login">Login</string>
+    <string name="login">Masuk</string>
     <string name="username">Username</string>
     <string name="pw">Password</string>
     <string name="notlp">No.Telepon</string>
-    <string name="forgetpw">Forgot Password?</string>
+    <string name="forgetpw">Lupa kata sandi?</string>
     <string name="signup"> Sign Up</string>
     <string name="nama">Nama Lengkap</string>
     <string name="email">Email</string>
     <string name="ulangpw">Ulangi Password</string>
-    <string name="create_account">Create Account</string>
+    <string name="create_account">Masuk dengan Google</string>
+    <string name="cari">Cari</string>
+    <string name="daftar"> Daftar Disini</string>
+    <string name="belumAkun">Belum memiliki akun?  </string>
 </resources>

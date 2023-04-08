@@ -3,6 +3,7 @@ import android.content.Intent
 import androidx.activity.ComponentActivity
 import android.os.Bundle;
 import android.os.Handler;
+import androidx.appcompat.app.AppCompatActivity;
 import android.widget.Button;
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize

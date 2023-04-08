@@ -3,16 +3,17 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/purplebg"
     >
     <TextView
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:text="@string/signup"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="50dp"
         android:textStyle="bold"
-        android:layout_marginStart="30dp"
+        android:layout_marginStart="28dp"
         android:textSize="30sp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         />
 
     <EditText
@@ -21,72 +22,100 @@
         android:layout_width="match_parent"
         android:background="@drawable/input"
         android:layout_marginTop="40dp"
-        android:layout_marginBottom="20dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"
         android:hint="@string/nama"
+        android:textColorHint="@color/white"
         android:padding="15dp"
         android:inputType="text"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         />
 
     <EditText
         android:id="@+id/notlp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"
         android:background="@drawable/input"
         android:inputType="text"
         android:padding="15dp"
+        android:textColorHint="@color/white"
         android:hint="@string/notlp"
-        android:textColor="@color/black"/>
+        android:textColor="@color/white"/>
     <EditText
         android:id="@+id/email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="28dp"
         android:background="@drawable/input"
+        android:textColorHint="@color/white"
         android:inputType="text"
         android:padding="15dp"
         android:hint="@string/email"
-        android:textColor="@color/black"/>
+        android:textColor="@color/white"/>
     <EditText
         android:id="@+id/pw"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"
         android:background="@drawable/input"
         android:inputType="textPassword"
         android:padding="15dp"
         android:hint="@string/pw"
-        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
         />
     <EditText
         android:id="@+id/ulangpw"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"
         android:background="@drawable/input"
         android:inputType="textPassword"
         android:padding="15dp"
+        android:textColorHint="@color/white"
         android:hint="@string/ulangpw"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="45dp"
+       android:layout_marginTop="32dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"
         android:background="@drawable/baground_rounded"
-        android:text="@string/create_account"
+        android:text="Daftar"
         android:textColor="@color/white"
         />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="22dp"
+        android:text="atau"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/createAkunButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginRight="28dp"
+        android:background="@drawable/border_purple"
+        android:drawableStart="@drawable/google"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"
+        android:text="@string/create_account"
+        android:textColor="@color/black" />
 
 
 </LinearLayout>
